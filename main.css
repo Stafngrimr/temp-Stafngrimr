@@ -1,0 +1,91 @@
+/* main for Stafnrimr.com */
+
+body {
+	background-color: #727272;
+	background-image: url(img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+
+#title {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#writeup {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	padding: 25px;
+	background-color: rgba(0, 0, 0, 0.7);
+	border: 2px white dashed;
+}
+
+p, h1 {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+	font-size: 16px;
+}
+
+a {
+	color: white;
+	font-weight: bold;
+}
+
+.pictures {
+	margin: 30px auto;
+	max-width: 1000px;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.7);
+	border: 2px white dashed;
+}
+
+.art-pics {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+
+}
+
+.preview {
+	margin: 5px;
+	width: 300px;
+	border: 1px white solid;
+	padding: 2px;
+}
+
+div.preview img {
+	height: auto;
+	width: 100%;
+}
+
+#email {
+	text-decoration: underline;
+	font-size: 16px;
+}
+
+h1 {
+	text-align: center;
+	margin: 10px;
+}
+
+@media (max-width : 900px) {
+	.preview {
+		width: 100px;
+	}
+
+	p {
+		font-size: 14px;
+	}
+}
